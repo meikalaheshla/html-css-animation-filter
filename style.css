@@ -141,7 +141,40 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation: spin-counter-clockwise 1s infinite linear reverse
 }
+
+@keyframes spin-counter-clockwise {
+    from {}
+
+
+    to {
+        transform: rotate(360deg)
+    }
+
+}
+
+/* ex 10 senza reverse
+.ex-10-icon {
+    font-size: 60px;
+    animation: spin-counter-clockwise 1s infinite linear 
+}
+
+@keyframes spin-counter-clockwise {
+    from {}
+
+
+    to {
+        transform: rotate(-360deg)
+    }
+
+}*/
+
+
+
+
+/* ex 11*/
+
 
 .ex-11-icon {
     font-size: 60px;
