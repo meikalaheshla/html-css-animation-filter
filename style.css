@@ -97,7 +97,15 @@
 /*ex 8*/
 .ex-8-img {
     width: 500px;
+    transition: border-radius 2s, filter 2s;
 }
+
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter: grayscale(0.6) sepia(0.4);
+}
+
+/*ex 9*/
 
 .ex-9-img {
     margin: 50px 100px;
