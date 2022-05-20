@@ -77,6 +77,10 @@
     transform: scale(2);
 }
 
+.ex-5-square:active {
+    transform: scale(0.5)
+}
+
 
 /* ex 6*/
 
@@ -238,10 +242,10 @@
 }
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: misleading-border-top 2s linear;
+    animation: ex-12-misleading-border-top 2s linear;
 }
 
-@keyframes misleading-border-top {
+@keyframes ex-12-misleading-border-top {
     0% {
         left: 10%;
     }
@@ -256,10 +260,10 @@
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: misleading-border-bot 2s linear;
+    animation: ex-12-misleading-border-bot 2s linear;
 }
 
-@keyframes misleading-border-bot {
+@keyframes ex-12-misleading-border-bot {
     0% {
         right: 20%;
     }
@@ -308,4 +312,18 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: rotate-top 2s linear;
+
+}
+
+@keyframes rotate-top {
+    0% {}
+
+    25% {}
+
+    50% {}
+
 }
