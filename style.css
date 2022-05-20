@@ -46,7 +46,9 @@
     border-radius: 50%;
 }
 
+
 /*ex 4*/
+
 
 .ex-4-square {
     width: 100px;
@@ -59,7 +61,9 @@
     opacity: 0;
 }
 
+
 /*ex 5*/
+
 
 .ex-5-square {
     margin: 20px;
@@ -73,7 +77,9 @@
     transform: scale(2);
 }
 
+
 /* ex 6*/
+
 
 .ex-6-img {
     width: 500px;
@@ -84,7 +90,10 @@
     filter: grayscale(1);
 }
 
+
 /*ex 7*/
+
+
 .ex-7-img {
     width: 500px;
     transition: filter 2s;
@@ -94,7 +103,10 @@
     filter: grayscale(0.6) sepia(0.5);
 }
 
+
 /*ex 8*/
+
+
 .ex-8-img {
     width: 500px;
     transition: border-radius 2s, filter 2s;
@@ -105,12 +117,27 @@
     filter: grayscale(0.6) sepia(0.4);
 }
 
+
 /*ex 9*/
+
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: border-radius 2s, transform 2s, filter 2s;
+
 }
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    transform: scale(1.5);
+    filter: grayscale(0.6)sepia(0.4);
+}
+
+
+
+/*ex 10*/
+
 
 .ex-10-icon {
     font-size: 60px;
