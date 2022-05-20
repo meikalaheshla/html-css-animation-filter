@@ -87,7 +87,11 @@
 /*ex 7*/
 .ex-7-img {
     width: 500px;
+    transition: filter 2s;
+}
 
+.ex-7-img:hover {
+    filter: grayscale(0.6) sepia(0.5);
 }
 
 /*ex 8*/
