@@ -317,7 +317,7 @@
 }
 
 .ex-13-button:hover .ex-13-top-white {
-    animation: rotate-top 3s linear;
+    animation: rotate-top 2s linear;
 
 }
 
@@ -352,4 +352,42 @@
         top: -10px;
     }
 
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: rotate-bot 2s linear;
+
+}
+
+@keyframes rotate-bot {
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+
+    30% {
+        right: calc(100% - 45px);
+        bottom: -10px
+    }
+
+    45% {
+        right: calc(100% - 45px);
+        bottom: calc(100% - 10px);
+    }
+
+    75% {
+        right: -30px;
+        bottom: calc(100% - 10px)
+    }
+
+    90% {
+        right: -30px;
+        bottom: -10px;
+
+        bottom 100% {
+            right: 10%;
+            bottom: -10px;
+        }
+
+    }
 }
